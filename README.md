@@ -12,5 +12,5 @@ To check if anaconda is installed on machine-> type anaconda on window search-> 
 
 Type Jupyter notebbok on window search -> Click on Jupyter Notebook -> Jupyter Notebook will open on your browser
 
-Upload code file downloaded from github on your jupyter Notebook
+Open the code file on github
 
