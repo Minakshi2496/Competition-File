@@ -17,3 +17,13 @@
 8. Open the code file(Class Reproduce.ipynb) on github  or Click on the link https://github.com/Minakshi2496/Competition-File/blob/main/Class%20Reproduce.ipynb 
 
 9. The link will take you to the code file, copy the code from the file and paste it in jupyter notebook
+
+10. Before running the code enter your dataset  file path in the 4th line of the code where training dataset is loaded
+
+11. Do same for loading gene_names file in next line. Enter the path to gene_names file
+
+12. Run the code and it will give the clusters in predictions2 variable
+
+13. If you are passing the predictions to the API you must convert the predictions into list using predictions2.tolist() 
+
+14. For instance -> payload = json.dumps(predictions2.tolist())
