@@ -21,6 +21,7 @@
 10. Before running the code enter your dataset  file path in the 4th line of the code where training dataset is loaded
 
 11. Do same for loading gene_names file in next line. Enter the path to gene_names file
+For example: on our machine the dataset was in ‘Download’ folder in ‘My Computer’. Therefore, the path we used is  "C:\Users\vineet\Downloads\data_tr.txt" for dataset and "C:\Users\vineet\Downloads\gene_names.txt" for gene names
 
 12. Run the code and it will give the clusters in predictions2 variable
 
