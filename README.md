@@ -46,7 +46,7 @@
 14. For instance -> payload = json.dumps(predictions2.tolist())
 
 
-**To execute training and testing dataset **
+**To execute training and testing dataset**
 
 15.  Once the jupyter is opened on your browser, open a new python file by clicking on 'new' tab and then click on 'python3'
 
