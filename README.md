@@ -36,7 +36,7 @@
 
 11. Do same for loading gene_names file in next line. Enter the path to gene_names file
 
-    For example: on our machine the dataset was in ‘Download’ folder in ‘My Computer’. Therefore, the path we used is  "C:\Users\vineet\Downloads\data_tr.txt" for         dataset and "C:\Users\vineet\Downloads\gene_names.txt" for gene names
+    For example: on our machine the dataset was in ‘Download’ folder in ‘My Computer’. Therefore, the path we used is  "C:\Users\vineet\Downloads\trainingdata.txt"     for dataset, and "C:\Users\vineet\Downloads\gene_names.txt" for gene names
 
 12. Run the code and it will give the clusters in predictions2 variable
 
@@ -56,7 +56,7 @@
 
 19. Do same for loading gene_names file too. Enter the path to gene_names file where gene names are loading
 
-    For example: on our machine the dataset was in ‘Download’ folder in ‘My Computer’. Therefore, the path we used is  "C:\Users\vineet\Downloads\data_tr.txt" for       dataset and "C:\Users\vineet\Downloads\gene_names.txt" for gene names
+    For example: on our machine the dataset was in ‘Download’ folder in ‘My Computer’. Therefore, the path we used is  "C:\Users\vineet\Downloads\trainingdata.txt"     for dataset, "C:\Users\vineet\Downloads\testingdata.txt" for testing dataset, and "C:\Users\vineet\Downloads\gene_names.txt" for gene names
 
 20. Run the code and it will give the training dataset clusters in predictions2 variable and testing dataset clusters in predictions variable
 
