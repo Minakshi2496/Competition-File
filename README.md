@@ -24,6 +24,8 @@
 
 6. Type Jupyter notebook on window search -> Click on Jupyter Notebook -> Jupyter Notebook will open on your browser
 
+**To execute training dataset only**
+
 7. Once the jupyter is opened on your browser, open a new python file by clicking on 'new' tab and then click on 'python3'
 
 8. Open the code file(Class Reproduce.ipynb) on github  or Click on the link https://github.com/Minakshi2496/Competition-File/blob/main/Class%20Reproduce.ipynb 
@@ -41,3 +43,9 @@
 13. If you are passing the predictions to the API you must convert the predictions into list using predictions2.tolist() 
 
 14. For instance -> payload = json.dumps(predictions2.tolist())
+
+**To execute training dataset only**
+
+15.  Once the jupyter is opened on your browser, open a new python file by clicking on 'new' tab and then click on 'python3'
+
+16. Open the code file(Class Reproduce.ipynb) on github  or Click on the link https://github.com/Minakshi2496/Competition-File/blob/main/Class%20Reproduce.ipynb
