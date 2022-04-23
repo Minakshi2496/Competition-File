@@ -30,7 +30,7 @@
 
 8. Open the code file(Class Reproduce.ipynb) on github  or Click on the link https://github.com/Minakshi2496/Competition-File/blob/main/Class%20Reproduce.ipynb 
 
-9. The link will take you to the code file, copy the code from the file and paste it in jupyter notebook
+9. The link will take you to the code file, copy the code from the file and paste it in jupyter notebook 
 
 10. Before running the code enter your dataset  file path in the 4th line of the code where training dataset is loaded
 
@@ -44,8 +44,23 @@
 
 14. For instance -> payload = json.dumps(predictions2.tolist())
 
-**To execute training dataset only**
+**To execute training and testing dataset only**
 
 15.  Once the jupyter is opened on your browser, open a new python file by clicking on 'new' tab and then click on 'python3'
 
-16. Open the code file(Class Reproduce.ipynb) on github  or Click on the link https://github.com/Minakshi2496/Competition-File/blob/main/Class%20Reproduce.ipynb
+16. Open the code file(Competition.ipynb) on github  or Click on the link https://github.com/Minakshi2496/Competition-File/blob/main/Competition.ipynb 
+
+17. The link will take you to the code file, copy the code from the file and paste it in jupyter notebook
+
+18. Before running the code enter your dataset  file path where training dataset and testing dataset is loaded
+
+19. Do same for loading gene_names file too. Enter the path to gene_names file where gene names are loading
+
+    For example: on our machine the dataset was in ‘Download’ folder in ‘My Computer’. Therefore, the path we used is  "C:\Users\vineet\Downloads\data_tr.txt" for       dataset and "C:\Users\vineet\Downloads\gene_names.txt" for gene names
+
+20. Run the code and it will give the training dataset clusters in predictions2 variable and testing dataset clusters in predictions variable
+
+21. If you are passing the predictions to the API you must convert the predictions into list using predictions2.tolist() for training clusters, and predictions.tolist() for testing clusters.
+
+22. For instance -> payload = json.dumps(predictions2.tolist()) for training data clusters
+                    payload = json.dumps(predictions.tolist()) for testing data clusters
